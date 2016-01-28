@@ -1,0 +1,32 @@
+{
+  "name": "cultwoshow",
+  "description": "...",
+  "version": "0.0.1",
+  "author": {
+    "name": "Your name",
+    "email": "your@email.com",
+    "url": "https://your.github.io"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/yourid/cultwoshow.git"
+  },
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "scripts": {
+    "build": "gulp build",
+    "run": "node dist/index.js"
+  },
+  "devDependencies": {
+    "gulp": "*",
+    "gulp-clean": "*",
+    "gulp-sass": "*",
+    "gulp-tsc": "*"
+  },
+  "dependencies": {
+    "request": "^2.68.0",
+    "rxjs": "*",
+    "xml2js": "^0.4.16"
+  }
+}
